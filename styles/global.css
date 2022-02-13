@@ -1,4 +1,5 @@
 @import './home.css';
+@import '../page-css/wishlist.css';
 
 a {
     text-decoration: none;
