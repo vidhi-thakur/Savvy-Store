@@ -1,0 +1,26 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 6.25rem;
+}
+
+.image-outerContainer {
+  margin: 0rem 6.25rem;
+}
+
+.image-container {
+  max-width: none;
+  width: 96%;
+}
+
+@media screen and (max-width: 1290px) {
+  .card-container {
+    flex-wrap: wrap;
+    margin: 0 3.125rem;
+  }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
