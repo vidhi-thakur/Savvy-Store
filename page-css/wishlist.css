@@ -5,7 +5,6 @@
 
 .wishlisted-items {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
