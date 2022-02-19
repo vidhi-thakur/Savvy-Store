@@ -18,11 +18,11 @@
             <form class="form" action="/">
                 <div class="mb-1 input-container">
                     <label for="name">Enter name </label>
-                    <input class="input" id="name" name="name" type="text" placeholder="e.g., Oliver" />
+                    <input required class="input" id="name" name="name" type="text" placeholder="e.g., Oliver" />
                 </div>
                 <div class="mb-1 input-container">
                     <label for="password">Enter password </label>
-                    <input class="input" id="password" name="password" type="password" placeholder="e.g., Oliver123" />
+                    <input required class="input" id="password" name="password" type="password" placeholder="e.g., Oliver123" />
                 </div>
                 <div class="form-extrafeild">
                     <div class="mb-1 checkbox input-container ">
@@ -32,7 +32,7 @@
                     </div>
                     <div>Forgot password?</div>
                 </div>
-                <button class="btn btn-primary-contained btn-extra">login</button>
+                <button type="submit" class="btn btn-primary-contained btn-extra">login</button>
             </form>
             <a href="./sign-up.html" class="form-link">New user? Register here <i class='fas fa-angle-right'></i></a>
         </div>
