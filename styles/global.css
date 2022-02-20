@@ -1,5 +1,7 @@
 @import './home.css';
 @import '../page-css/wishlist.css';
+@import '../page-css/login.css';
+@import '../page-css//sign-up.css';
 
 a {
     text-decoration: none;
