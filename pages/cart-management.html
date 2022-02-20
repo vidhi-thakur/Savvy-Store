@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vidhi Thakur">
+    <link rel="stylesheet" href="https://savvy-doc.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <title>Cart Management | Savvy Store</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="avatar avatar-sm">
+            <a href="/">
+                <img loading="lazy" src="../../assets/images/ECom-logo.svg" alt="avatar" />
+            </a>
+        </div>
+        <div class="nav-serch">
+            <i class="fas fa-search opacity-07"></i>
+            <input class="nav-input" type="text" placeholder="Search" />
+        </div>
+        <div class="nav-links">
+            <button class="btn btn-primary-contained shadow-none">login</button>
+            <span class="position-rel nav-icon-box">
+                <a href="./product.html">
+                    <i class="fas fa-shopping-bag nav-icon"></i><span
+                        class="badge status-badge badge-primary-contained badge-round sm-badge">5</span>
+                </a>
+            </span>
+            <span class="position-rel nav-icon-box">
+                <a href="./wishlist.html">
+                    <i class="fas fa-heart nav-icon"></i><span
+                        class="badge status-badge badge-primary-contained badge-round sm-badge">5</span>
+                </a>
+            </span>
+            <span class="position-rel nav-icon-box">
+                <a href="cart-management.html">
+                    <i class="fas fa-cart-plus nav-icon"></i><span
+                        class="badge status-badge badge-primary-contained badge-round sm-badge">9</span>
+                </a>
+            </span>
+        </div>
+    </nav>
+    <header>
+        <h3 class="cart-heading">My Cart(2)</h3>
+    </header>
+
+    <section class="cart">
+        <div class="cart-items p-1">
+            <div class="card card-horizontal">
+                <span class="badge badge-primary-contained card-customBadge-horizontal">New</span>
+                <img loading="lazy" class="card-image-vertical"
+                    src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                    alt="dress" />
+                <div class="br-inherit">
+                    <div class="card-textContainer br-inherit">
+                        <h3 class="pb-1">Pink Dress</h3>
+                        <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small></p>
+                        <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button
+                            closures
+                        </p>
+                    </div>
+                    <div class="card-btnContainer br-inherit">
+                        <button class="btn btn-primary-outlined"><i class="fas fa-cart-plus  mr-05"></i> remove from
+                            cart</button>
+                        <button class="btn btn-primary-outlined">move to wishlist</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-horizontal">
+                <span class="badge badge-primary-contained card-customBadge-horizontal">New</span>
+                <img loading="lazy" class="card-image-vertical"
+                    src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                    alt="dress" />
+                <div class="br-inherit">
+                    <div class="card-textContainer br-inherit">
+                        <h3 class="pb-1">Pink Dress</h3>
+                        <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small></p>
+                        <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button
+                            closures
+                        </p>
+                    </div>
+                    <div class="card-btnContainer br-inherit">
+                        <button class="btn btn-primary-outlined"><i class="fas fa-cart-plus  mr-05"></i> remove from
+                            cart</button>
+                        <button class="btn btn-primary-outlined">move to wishlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="price-container p-1">
+            <div class="price-detail">
+                <h3 class="price-head">PRICE DETAILS</h3>
+                <table class="price-table w-full">
+                    <thead class="w-full">
+                        <tr class="price-row w-full">
+                            <th class="price-cell">ITEM DETAILS</th>
+                            <th class="price-cell">AMOUNT</th>
+                        </tr>
+                    </thead>
+                    <tbody class="price-body w-full">
+                        <tr class="price-row w-full">
+                            <td class="price-cell">Price (2 items)</td>
+                            <td class="price-cell">Rs. 4999</td>
+                        </tr>
+                        <tr class="price-row w-full">
+                            <td class="price-cell">Discount</td>
+                            <td class="price-cell">-Rs. 1999</td>
+                        </tr>
+                        <tr class="price-row w-full">
+                            <td class="price-cell">Delivery charges</td>
+                            <td class="price-cell">Rs. 199</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="price-foot w-full">
+                        <tr class="price-row font-bold w-full">
+                            <td class="price-cell">TOTAL AMOUNT</td>
+                            <td class="price-cell">Rs. 3199</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <p class="price-para p-1">You will save Rs. 1999 on this order</p>
+                <button class="btn btn-primary-contained btn-extra">place order</button>
+            </div>
+        </aside>
+    </section>
+
+</body>
+
+<script src="https://kit.fontawesome.com/ba1ac74ca9.js" crossorigin="anonymous"></script>
+
+</html>

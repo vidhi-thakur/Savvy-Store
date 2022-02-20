@@ -1,7 +1,21 @@
 @import './home.css';
+@import './variable.css';
 @import '../page-css/wishlist.css';
+@import '../page-css/login.css';
+@import '../page-css/sign-up.css';
+@import '../page-css/cart-management.css';
 
 a {
     text-decoration: none;
     color: black;
+}
+
+/* misc css properties */
+
+.w-full {
+    width: 100%;
+}
+
+.font-bold {
+    font-weight: bold;
 }
