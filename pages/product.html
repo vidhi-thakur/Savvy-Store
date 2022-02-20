@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vidhi Thakur">
+    <link rel="stylesheet" href="https://savvy-doc.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="../styles/global.css">
+    <title>Product Listing | Savvy Store</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="avatar avatar-sm">
+            <a href="/">
+                <img loading="lazy" src="../../assets/images/ECom-logo.svg" alt="avatar" />
+            </a>
+        </div>
+        <div class="nav-serch">
+            <i class="fas fa-search opacity-07"></i>
+            <input class="nav-input" type="text" placeholder="Search" />
+        </div>
+        <div class="nav-links">
+            <a href="./login.html">
+                <button class="btn btn-primary-contained shadow-none">login</button>
+            </a>
+            <span class="position-rel nav-icon-box">
+                <a href="product.html">
+                    <i class="fas fa-shopping-bag nav-icon"></i><span
+                        class="badge status-badge badge-primary-contained badge-round sm-badge">5</span>
+                </a>
+            </span>
+            <span class="position-rel nav-icon-box">
+                <a href="./wishlist.html">
+                    <i class="fas fa-heart nav-icon"></i><span
+                        class="badge status-badge badge-primary-contained badge-round sm-badge">5</span>
+                </a>
+            </span>
+            <span class="position-rel nav-icon-box">
+                <a href="./cart-management.html">
+                    <i class="fas fa-cart-plus nav-icon"></i><span
+                        class="badge status-badge badge-primary-contained badge-round sm-badge">9</span>
+                </a>
+            </span>
+        </div>
+    </nav>
+
+    <main class="product-listing">
+        <aside class="filter">
+            <div class="filter-header">
+                <h2>Filter</h2>
+                <span class="cp">Clear</span>
+            </div>
+
+            <section>
+                <h3 class="mb-05">Price</h3>
+                <div class="price-range-input">
+                    <label for="price-range">Select range</label>
+                    <input type="range" id="price-range" name="price-range" class="price-range" min="50" max="200">
+                </div>
+            </section>
+
+            <section>
+                <h3 class="mb-05">Category</h3>
+                <div class="category">
+                    <div class="checkbox input-container category-input">
+                        <input class="checkbox-input" id="checkbox-input" type="checkbox" /><label
+                            for="checkbox-input">Men cloathig</label>
+                    </div>
+
+                    <div class="checkbox input-container category-input">
+                        <input class="checkbox-input" id="checkbox-input" type="checkbox" /><label
+                            for="checkbox-input">Women cloathig</label>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="mb-05">Sort by</h3>
+                <div class="sortBy">
+                    <div class="radio input-container category-input">
+                        <input class="radio-input" id="radio-input" type="radio" /><label for="radio-input">Men
+                            cloathig</label>
+                    </div>
+
+                    <div class="radio input-container category-input">
+                        <input class="radio-input" id="radio-input" type="radio" /><label for="radio-input">Women
+                            cloathig</label>
+                    </div>
+                    <div class="radio input-container category-input">
+                        <input class="radio-input" id="radio-input" type="radio" /><label for="radio-input">Men
+                            cloathig</label>
+                    </div>
+
+                    <div class="radio input-container category-input">
+                        <input class="radio-input" id="radio-input" type="radio" /><label for="radio-input">Women
+                            cloathig</label>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="mb-05">Ratings</h3>
+                <div class="ratings">
+                    <div class="radio input-container category-input">
+                        <input class="radio-input" id="radio-input" type="radio" /><label for="radio-input">Men
+                            cloathig</label>
+                    </div>
+
+                    <div class="radio input-container category-input">
+                        <input class="radio-input" id="radio-input" type="radio" /><label for="radio-input">Women
+                            cloathig</label>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <section class="product">
+            <div class="card card-vertical">
+                <img loading="lazy" class="card-image-horizontal"
+                    src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                    alt="dress" />
+                <div class="card-textContainer">
+                    <h3 class="pb-1">Pink Dress</h3>
+                    <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small></p>
+                    <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button closures
+                    </p>
+                </div>
+                <div class="card-btnContainer">
+                    <button class="btn btn-primary-contained"><i class="fas fa-cart-plus  mr-05"></i> add to
+                        cart</button>
+                </div>
+            </div>
+
+            <div class="card card-vertical">
+                <img loading="lazy" class="card-image-horizontal"
+                    src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                    alt="dress" />
+                <div class="card-textContainer">
+                    <h3 class="pb-1">Pink Dress</h3>
+                    <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small></p>
+                    <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button closures
+                    </p>
+                </div>
+                <div class="card-btnContainer">
+                    <button class="btn btn-primary-contained"><i class="fas fa-cart-plus  mr-05"></i> add to
+                        cart</button>
+                </div>
+            </div>
+
+            <div class="card card-vertical">
+                <img loading="lazy" class="card-image-horizontal"
+                    src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                    alt="dress" />
+                <div class="card-textContainer">
+                    <h3 class="pb-1">Pink Dress</h3>
+                    <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small></p>
+                    <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button closures
+                    </p>
+                </div>
+                <div class="card-btnContainer">
+                    <button class="btn btn-primary-contained"><i class="fas fa-cart-plus  mr-05"></i> add to
+                        cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+<script src="https://kit.fontawesome.com/ba1ac74ca9.js" crossorigin="anonymous"></script>
+
+</html>
