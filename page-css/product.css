@@ -35,7 +35,6 @@
 @media screen and (max-width: 950px) {
   .product-listing {
     grid-template-columns: 1fr;
-    min-height: 88.5vh;
     grid-template-areas:
       "aside"
       "aside"
