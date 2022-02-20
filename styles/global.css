@@ -4,6 +4,7 @@
 @import '../page-css/login.css';
 @import '../page-css/sign-up.css';
 @import '../page-css/cart-management.css';
+@import '../page-css/product.css';
 
 a {
     text-decoration: none;
@@ -18,4 +19,8 @@ a {
 
 .font-bold {
     font-weight: bold;
+}
+
+.cp {
+    cursor: pointer;
 }
